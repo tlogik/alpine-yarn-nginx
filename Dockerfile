@@ -1,13 +1,12 @@
 FROM nginx:1.11.10-alpine
 MAINTAINER Michael Lin <michaellin@ualberta.ca>
 
-ENV VERSION=v7.6.0 NPM_VERSION=4
-ENV YARN_VERSION 0.20.0
-ENV CONFIG_FLAGS="--fully-static --without-npm" DEL_PKGS="libstdc++" RM_DIRS=/usr/include
+ENV VERSION=v7.6.0 NPM_VERSION=4.1.2
+ENV YARN_VERSION 0.20.3
 
 ADD https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v${YARN_VERSION}.tar.gz /opt/yarn.tar.gz
 
-RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
+RUN apk add --no-cache bash curl make gcc g++ python linux-headers binutils-gold gnupg libstdc++ && \
   gpg --keyserver ha.pool.sks-keyservers.net --recv-keys \
     9554F04D7259F04124DE6B476D5A82AC7E37093B \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
