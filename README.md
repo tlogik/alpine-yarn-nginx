@@ -11,7 +11,7 @@ Yarn | v1.5.1
 
 ## Supported tags
 * `8.9.4`, `latest` [(Dockerfile)](./Dockerfile)
-* `7.9.4` (./Dockerfile)
+* `7.9.4` [(Dockerfile)](https://github.com/ExiaSR/alpine-yarn-nginx/blob/7.9.4/Dockerfile)
 
 ## Usage
 
