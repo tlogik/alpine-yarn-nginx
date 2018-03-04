@@ -9,6 +9,10 @@ Node | v8.9.4
 Npm | v5.6.0
 Yarn | v1.5.1
 
+## Supported tags
+* `8.9.4`, `latest` [(Dockerfile)](./Dockerfile)
+* `7.9.4` (./Dockerfile)
+
 ## Usage
 
 `$ docker pull exiasr/alpine-yarn-nginx`
