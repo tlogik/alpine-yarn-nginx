@@ -5,13 +5,14 @@ Latest version:
 
 Item | Version
 ------- | -----
-Node | v10.16.0
+Node | v10.16.3
 Npm | v6.9.0
-Yarn | v1.17.3
+Yarn | v1.19.1
 Nginx | v1.17
 
 ## Supported tags
-* `10.16.0`, `latest` [(Dockerfile)](./Dockerfile)
+* `10.16.3`, `latest` [(Dockerfile)](./Dockerfile)
+* `10.16.0` [(Dockerfile)](https://github.com/Palmabit-IT/alpine-yarn-nginx/blob/10.16.0/Dockerfile)
 * `8.11.4` [(Dockerfile)](https://github.com/Palmabit-IT/alpine-yarn-nginx/blob/8.11.4/Dockerfile)
 * `8.9.4` [(Dockerfile)](https://github.com/Palmabit-IT/alpine-yarn-nginx/blob/8.9.4/Dockerfile)
 * `7.9.4` [(Dockerfile)](https://github.com/Palmabit-IT/alpine-yarn-nginx/blob/7.9.4/Dockerfile)
